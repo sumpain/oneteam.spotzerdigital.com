@@ -1,0 +1,128 @@
+/* Custom Login screen styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+	background:#fff;
+	font-family:"Poppins",sans-serif;
+}
+
+#login {
+	padding-top:200px;
+}
+
+#login h1 a, .login h1 a {
+	background-image:url(/wp-content/uploads/2023/07/logo-invert.png);
+	text-indent:0;
+	width: 100%;
+	background-size: 200px;
+	padding-top: 80px;
+	font-size: 16px;
+	font-weight:bold;
+	color:#000 !important;
+	cursor:default;
+	margin-bottom:0;
+}
+
+#login h1 a small, .login h1 a small {
+   	font-weight: normal;
+   	display: block;
+   	margin-top: 10px;
+}
+
+#loginform {
+    border: none;
+	border-top:1px solid #000;
+    box-shadow: none;
+	display:none;
+}
+
+#backtoblog {
+    display: none;
+}
+
+.language-switcher {
+    display: none;
+}
+
+.wp_google_login {
+    margin-top: 0;
+}
+
+.login #nav {
+    clear:both;
+    padding: 20px 0 0 0;
+}
+
+#adminlogin {
+    margin-top: 40px;
+    text-align: center;
+}
+
+a {
+    color: #45CAA5 !important;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000 !important;
+}
+
+a:active, a:focus { color:#000 !important; box-shadow:none }
+
+#loginform {
+	padding:20px 0;
+}
+
+#loginform .button {
+    background-color: #45CAA5;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#loginform input[type=submit] {
+	border-radius:99px;
+}
+
+#loginform .button:hover {
+    background-color: #000;
+}
+
+#loginform input:not(.button) {
+    border: 1px solid #000;
+    font-size: 14px;
+}
+
+.wp_google_login__button-container {
+	margin-top: 0 !important;
+}
+
+.wp_google_login__button {
+    background-color: #45CAA5;
+    color: #fff !important;
+    border: none;
+    box-shadow: none;
+    border-radius: 99px;
+    width: 197px;
+    margin: auto;
+	padding:10px;
+}
+
+.wp_google_login__google-icon {
+    background-color: #fff;
+    border-radius: 99px;
+    padding: 5px;
+    background-size: 29px;
+}
+
+.wp_google_login__button:hover {
+    background-color: #000;
+    color: #fff !important;
+}
+
+#user_login, #user_pass {
+    border: none !important;
+    border-bottom: 2px solid #000 !important;
+    border-radius: 0 !important;
+}
